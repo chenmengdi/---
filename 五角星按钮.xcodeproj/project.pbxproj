@@ -15,6 +15,7 @@
 		5F39BF1620170B02005CBFF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F39BF1520170B02005CBFF1 /* main.m */; };
 		5F39BF2020170B02005CBFF1 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F39BF1F20170B02005CBFF1 /* _____Tests.m */; };
 		5F39BF2B20170B02005CBFF1 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F39BF2A20170B02005CBFF1 /* _____UITests.m */; };
+		5F86617C2018260C00EF566B /* UIButton+point.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F86617B2018260C00EF566B /* UIButton+point.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5F39BF2620170B02005CBFF1 /* 五角星按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五角星按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F39BF2A20170B02005CBFF1 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		5F39BF2C20170B02005CBFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F86617A2018260C00EF566B /* UIButton+point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+point.h"; sourceTree = "<group>"; };
+		5F86617B2018260C00EF566B /* UIButton+point.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+point.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5F39BF0720170B02005CBFF1 /* AppDelegate.m */,
 				5F39BF0920170B02005CBFF1 /* ViewController.h */,
 				5F39BF0A20170B02005CBFF1 /* ViewController.m */,
+				5F86617A2018260C00EF566B /* UIButton+point.h */,
+				5F86617B2018260C00EF566B /* UIButton+point.m */,
 				5F39BF0C20170B02005CBFF1 /* Main.storyboard */,
 				5F39BF0F20170B02005CBFF1 /* Assets.xcassets */,
 				5F39BF1120170B02005CBFF1 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				5F39BF0B20170B02005CBFF1 /* ViewController.m in Sources */,
 				5F39BF1620170B02005CBFF1 /* main.m in Sources */,
+				5F86617C2018260C00EF566B /* UIButton+point.m in Sources */,
 				5F39BF0820170B02005CBFF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = "五角星按钮/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-----";
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = "五角星按钮/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-----";
